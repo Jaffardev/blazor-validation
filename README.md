@@ -34,7 +34,8 @@ public class AddressInfo
     <button type="submit">Submit</button>
 </EditForm>
 
-@code {
+@code 
+{
     private Person person = new();
     private EditContext editContext;
     private ValidationMessageStore messageStore;
